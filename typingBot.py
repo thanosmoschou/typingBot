@@ -41,7 +41,7 @@ while currTime < 30: #this will run for 60 seconds
     results = reader.readtext(imageName)
 
     for tup in results:
-        pyautogui.write(tup[1]) #1st element of each tupple has the string I want
+        pyautogui.write(tup[1]) #2nd element of each tupple has the string I want
         pyautogui.press("space")
     
     currTime += 1
