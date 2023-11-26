@@ -36,7 +36,7 @@ imageName = "words.png"
 
 currTime = 0
 
-while currTime < 30: #this will run for 60 seconds
+while currTime < 30: #this will run for 60 seconds. Screenshot and read text take about 2 seconds.
     pyautogui.screenshot(imageName, region=(positionScreenshotX, positionScreenshotY, imageWidth, imageHeight))
     results = reader.readtext(imageName)
 
