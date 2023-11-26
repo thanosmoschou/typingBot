@@ -3,13 +3,13 @@ This is a simple speed typing bot built with Python. <br>
 It uses easyocr and pyautogui modules of Python. <br>
 
 ### How it works
-This works for the following site:
-```https://10fastfingers.com/typing-test/english```
+This works for the following site: <br>
+```https://10fastfingers.com/typing-test/english``` <br>
 Keep in mind that if you change some coordinates, it can work for different sites also.
 
-First it takes a screenshot of a specified area that contains some text. 
-Then it uses OCR methods to recognize the text.
-Finally, it writes the text to the specified area within the website.
+First it takes a screenshot of a specified area that contains some text.  <br>
+Then it uses OCR methods to recognize the text. <br>
+Finally, it writes the text to the specified area within the website. <br>
 It repeats the process for 60 seconds.
 
 ### How to run it
@@ -26,7 +26,8 @@ python typingBot.py
 
 ### Disclaimers
 You have to prepare the website yourself before you run the script. <br>
-Go to the page and click "Start typing test". Make sure the active window is the browser's window. <br>
+Go to the page and click ```Start typing test```. <br>
+Make sure the active window is the browser's window. <br>
 Also due to the fact that it uses OCR methods, it is pretty inconsistent. <br>
 The coordinates are tested for 15 inch screens. <br><br>
 This script is made for educational purposes only. <br>
